@@ -1,0 +1,28 @@
+/* classe quando o fundo for normal */
+.main-bg {
+    background-image: url('../img/main-bg.svg');
+    background-position: center center;
+    color: white;
+    min-height: 100vh;
+}
+
+/* classe quando o fundo for branco */
+.white-bg {
+    background: var(--white-color);
+    color: var(--primary-color);
+}
+
+/* css conteudo */
+.main-content {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 10rem var(--gap)3rem;
+}
+
+.menu-spacing{
+    height: 6.5rem;
+}
+body .full-width{
+    width: 100%;
+    flex: 1 1 100%;
+}
